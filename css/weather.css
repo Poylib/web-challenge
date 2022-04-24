@@ -1,0 +1,11 @@
+#whetherCard {
+  float: left;
+  margin-left: 30px;
+  padding: 12px;
+  width: 30%;
+  height: 80%;
+  border: 2px solid black;
+}
+.nameInput {
+   font-size: 40px;
+}

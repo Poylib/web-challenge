@@ -10,28 +10,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/todo.css">
+<link rel="stylesheet" href="css/weather.css">
   
 </head>
 <body>
-  <div class="warp">
-    <div class="topLine"></div>
+  <div id="warp">
+
+    <!-- login & clock -->
     <div id="title">
-      <div class="titleBox">
-        
-      </div>
       <form action="" class="login">
         <h1 class="nameInput"></h1>
       </form>
-      
+      <div id="timeNow">
+      </div>
     </div>
-    <div id="timeNow">
-    </div>
+
     <div id="dday">
-
     </div>
-    <div id="todo">
 
-    </div>
+ 
+    
+      <!-- weather      -->
     <div id="whetherCard">
       <div class="search">
         <input type="search" class="search-bar" list="city" placeholder="Enter city name in English" size="30">
@@ -53,7 +53,15 @@
       <div class="wind"></div> 
     </div>
     <div class="bottomLine"></div>
-    </div>
+    
+
+   <!-- todolist -->
+   <div id="todo">
+    <form action="" id="todo-form">
+      <input type="text" placeholder="Write a To Do" class="todo-input">
+    </form>
+    <ul id="todo-list"></ul>
+  </div>
 
   <!-- login -->
   <div id="loginPop">
@@ -67,7 +75,10 @@
       <button class="loginBtn">Login</button>
     </form>
   </div>
+  </div>
   <script src="js/weather.js"></script>
   <script src="js/loginpop.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/clock.js"></script>
 </body>
 </html>

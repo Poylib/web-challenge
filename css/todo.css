@@ -12,6 +12,9 @@
   border: 2px solid black;
 }
 .todo-input {
+  width: 240px;
+  font-size: 18px;
+  color: aliceblue;
   background: none;
   border: none;
   border-bottom: 3px solid #a6b0f3;

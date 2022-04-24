@@ -20,19 +20,22 @@ body {
   background-color: #7585f2;
   border-radius: 20px;
   box-shadow: 5px 5px 5px 5px gray;
-  padding: 30px;
+  padding-top: 50px;
   width: 30%;
   height: 80%;
   float: left;
 }
-
+.nameInput {
+  padding: 0px 30px 0px 30px;
+  line-height: 60px;
+}
 input::placeholder {
   color: aliceblue;
 }
 .link {
   display: flex;
   justify-content: center;
-  margin-top: 350px;
+  margin-top: 170px;
 }
 img {
   margin: 9px;

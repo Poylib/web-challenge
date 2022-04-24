@@ -19,7 +19,7 @@ function paintGreetings(userName) {
   if(userName === "") {
     nameInput.innerHTML = `Hello !`;
   } else {
-    nameInput.innerHTML = `Hi ${userName}!<br/>Beautiful day, isn't it? `
+    nameInput.innerHTML = `Hi<br/> ${userName}!<br/>Today is a<br/>Beautiful day, <br/>isn't it? `
   }
 }
 

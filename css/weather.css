@@ -26,6 +26,9 @@
   background: none;
   border-bottom: 3px solid #a6b0f3;
 }
+.search-bar ::-ms-input-placeholder {
+  color: #a6b0f3;
+}
 .search button {
   margin: 5px;
   margin-left: 10px;

@@ -25,6 +25,10 @@ body {
   height: 80%;
   float: left;
 }
+
+input::placeholder {
+  color: aliceblue;
+}
 .link {
   display: flex;
   justify-content: center;

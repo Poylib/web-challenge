@@ -5,8 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Poy.lib web</title>
-  
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/login.css">
   
 </head>
 <body>
@@ -14,7 +17,7 @@
     <div class="topLine"></div>
     <div id="title">
       <div class="titleBox">
-
+        
       </div>
       <form action="" class="login">
         <h1 class="nameInput"></h1>
@@ -53,6 +56,8 @@
     </div>
     <div id="weather">
   </div>
+
+  <!-- login -->
   <div id="loginPop">
     <form id="loginForm">
       <p class="loginTitle">Hello</p>
@@ -60,9 +65,11 @@
        type="text"
        class="loginInput"
        placeholder="your name">
-      <button>Login</button>
+       <span class="underline"></span>
+      <button class="loginBtn">Login</button>
     </form>
   </div>
   <script src="js/weather.js"></script>
+  <script src="js/loginpop.js"></script>
 </body>
 </html>

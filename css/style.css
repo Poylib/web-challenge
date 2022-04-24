@@ -17,9 +17,11 @@ body {
   padding: 100px;
 }
 #title {
-  padding: 12px;
+  background-color: #7585f2;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px gray;
+  padding: 30px;
   width: 30%;
   height: 80%;
   float: left;
-  border: 2px solid black;
 }

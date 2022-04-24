@@ -12,32 +12,28 @@
 <link rel="stylesheet" href="css/login.css">
 <link rel="stylesheet" href="css/todo.css">
 <link rel="stylesheet" href="css/weather.css">
+<link rel="stylesheet" href="css/clock.css">
   
 </head>
 <body>
   <div id="warp">
 
-    <!-- login & clock -->
+    <!-- login  -->
     <div id="title">
       <form action="" class="login">
+        <p></p>
         <h1 class="nameInput"></h1>
       </form>
-      <div id="timeNow">
-      </div>
-    </div>
 
-    <div id="dday">
-    </div>
-
- 
+    </div> 
     
-      <!-- weather      -->
+      <!-- weather & clock  -->
     <div id="whetherCard">
       <div class="search">
         <input type="search" class="search-bar" list="city" placeholder="Enter city name in English" size="30">
           <datalist id="city">
             <option value="seoul"></option>
-            <option value="busan"></option>
+            <option value="changwon"></option>
             <option value="london"></option>
             <option value="tokyo"></option>
             <option value="new york"></option>
@@ -47,11 +43,13 @@
         </button>
       </div>
       <div class="weatherInfo">
-      <h3 class="city"></h3>  
-      <h4 class="temp"></h4>
-      <div class="description"></div>  
-      <div class="humidity"></div>  
-      <div class="wind"></div> 
+        <h3 class="city"></h3>  
+        <h4 class="temp"></h4>
+        <div class="description"></div>  
+        <div class="humidity"></div>  
+        <div class="wind"></div> 
+    </div>
+    <div id="timeNow">
     </div>
     </div>
     

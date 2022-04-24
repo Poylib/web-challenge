@@ -54,5 +54,8 @@
 .description,
 .humidity,
 .wind {
-  height: 35px;
+  height: 40px;
+}
+.description {
+  font-size: 20px;
 }
